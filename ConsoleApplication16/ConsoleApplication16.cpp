@@ -2,7 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <string>
-
+#include "Header1.h"
 
 using namespace std;
 
@@ -15,7 +15,8 @@ int main()
 
     int a = 5;
     cout << a << endl;
-    cout << "Hello World";
+    cout << "Hello World" << endl;
+    function(a);
 
 }
 
