@@ -12,12 +12,12 @@ int main()
 {
     srand(time(0));
     setlocale(LC_ALL, "ru");
-
+    const int b(3);
     int a = 5;
     cout << a << endl;
     cout << "Hello World" << endl;
-    function(a);
-    function(a);
+    function(a, b);
+    function(a, b);
     cout << a << endl;
     cout << "Hello" << endl;
 }
