@@ -19,7 +19,7 @@ int main()
     function(a);
     function(a);
     cout << a << endl;
-    cout << "Hello World" << endl;
+    cout << "Hello" << endl;
 }
 
 
