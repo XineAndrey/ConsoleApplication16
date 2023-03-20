@@ -17,7 +17,9 @@ int main()
     cout << a << endl;
     cout << "Hello World" << endl;
     function(a);
-
+    function(a);
+    cout << a << endl;
+    cout << "Hello World" << endl;
 }
 
 
